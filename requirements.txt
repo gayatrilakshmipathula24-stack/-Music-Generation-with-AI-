@@ -1,0 +1,9 @@
+music21==9.1.0
+tensorflow==2.16.1
+numpy==1.26.4
+tqdm==4.66.2
+
+# Optional, only needed if you want to render generated .mid files to
+# listenable audio (.wav) instead of just opening them in a MIDI player:
+# midi2audio==0.1.1          (requires FluidSynth installed on your system,
+#                              e.g. `brew install fluid-synth` or `apt install fluidsynth`)
